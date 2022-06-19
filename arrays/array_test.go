@@ -14,6 +14,14 @@ func Test_Declaration_WhenMaxed(t *testing.T) {
 	assert.EqualValues(t, 5, cap(a1))
 }
 
+func Test_Declaration_WhenEmpty(t *testing.T) {
+	a1 := [5]int{}
+	fmt.Println(a1)
+
+	assert.EqualValues(t, 5, len(a1))
+	assert.EqualValues(t, 5, cap(a1))
+}
+
 func Test_Declaration_WhenNotMaxed(t *testing.T) {
 	a1 := [5]int{1, 2, 3}
 	fmt.Println(a1)
@@ -29,6 +37,15 @@ func Test_Declaration_WhenPartiallyFilled(t *testing.T) {
 
 	assert.EqualValues(t, 5, len(a1))
 	assert.EqualValues(t, 5, cap(a1))
+}
+
+func Test_Declaration_WhenPartialFilling(t *testing.T) {
+	a1 := [5]int{2: 99}
+	fmt.Println(a1)
+
+	assert.EqualValues(t, 5, len(a1))
+	assert.EqualValues(t, 5, cap(a1))
+	assert.EqualValues(t, 99, a1[2])
 }
 
 func Test_DeclarationAlternative(t *testing.T) {
