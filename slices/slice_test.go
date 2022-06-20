@@ -130,6 +130,7 @@ func slice3() {
 	fmt.Println(newSlice)
 }
 
+// if there is no room, will create a new array
 func slice4() {
 	slice := []int{10, 20, 30, 40, 50, 60}
 	newSlice := slice[1:3:3]

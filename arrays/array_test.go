@@ -125,3 +125,23 @@ func printArrayDetailsByPointer(val *[5]int) {
 	fmt.Println("------")
 	val[1] = 99
 }
+
+func Test_PlayScan(t *testing.T) {
+	scanTheArrayV1()
+
+	scanTheArrayV2()
+}
+
+func scanTheArrayV1() {
+	a1 := [5]int{10, 11, 12, 13, 14}
+	for i := 0; i < len(a1); i++ {
+		fmt.Printf("#%d - %d\n", i, a1[i])
+	}
+}
+
+func scanTheArrayV2() {
+	a1 := [5]int{10, 11, 12, 13, 14}
+	for idx, val := range a1 {
+		fmt.Printf("#%d - %d\n", idx, val)
+	}
+}
