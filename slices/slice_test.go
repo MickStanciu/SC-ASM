@@ -41,6 +41,57 @@ func Test_CreateEmptySlice(t *testing.T) {
 	fmt.Println(s2)
 }
 
+func Test_MultiCreate(t *testing.T) {
+	var s1 []string
+	var s2 = []string{}
+	var s3 = make([]string, 0)
+	var s4 = make([]string, 1)
+
+	fmt.Println(s1)
+	fmt.Printf("Len: %d\n", len(s1))
+	fmt.Printf("Cap: %d\n", cap(s1))
+
+	fmt.Println(s2)
+	fmt.Printf("Len: %d\n", len(s2))
+	fmt.Printf("Cap: %d\n", cap(s2))
+
+	fmt.Println(s3)
+	fmt.Printf("Len: %d\n", len(s3))
+	fmt.Printf("Cap: %d\n", cap(s3))
+
+	fmt.Println(s4)
+	fmt.Printf("Len: %d\n", len(s4))
+	fmt.Printf("Cap: %d\n", cap(s4))
+
+	// INIT ELEMENTS
+	//s1[0] = "BMW" // this will blow!
+	//s2[0] = "BMW" // this will blow!
+	//s3[0] = "BMW" // this will blow!
+	s4[0] = "BMW"
+	//s4[1] = "AUDI" // this will blow!
+
+	// APPEND STUFF
+	s1 = append(s1, "PEUGEOT")
+	fmt.Println(s1)
+	fmt.Printf("S1 Len: %d\n", len(s1))
+	fmt.Printf("S1 Cap: %d\n", cap(s1))
+
+	s2 = append(s2, "PEUGEOT")
+	fmt.Println(s2)
+	fmt.Printf("S2 Len: %d\n", len(s2))
+	fmt.Printf("S2 Cap: %d\n", cap(s2))
+
+	s3 = append(s3, "PEUGEOT")
+	fmt.Println(s3)
+	fmt.Printf("S3 Len: %d\n", len(s3))
+	fmt.Printf("S3 Cap: %d\n", cap(s3))
+
+	s4 = append(s4, "PEUGEOT")
+	fmt.Println(s4)
+	fmt.Printf("S4 Len: %d\n", len(s4))
+	fmt.Printf("S4 Cap: %d\n", cap(s4))
+}
+
 func Test_SliceIt(t *testing.T) {
 	s1 := []int{1, 2, 3, 4, 5}
 	s2 := s1[1:3]
