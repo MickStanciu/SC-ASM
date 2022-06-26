@@ -6,10 +6,6 @@ import (
 	"testing"
 )
 
-type speaker interface {
-	speak(string)
-}
-
 type killer interface {
 	kill(*animal)
 }

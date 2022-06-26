@@ -29,6 +29,7 @@ func Test_AddingValues(t *testing.T) {
 func Test_DeletingValues(t *testing.T) {
 	m := map[string]int{"Audi": 10000, "BMW": 11000, "Lexus": 12000}
 	delete(m, "BMW")
+	delete(m, "BLAH")
 	fmt.Println(m)
 	assert.EqualValues(t, 2, len(m))
 }
@@ -49,7 +50,6 @@ func Test_PassingToAnotherFunction(t *testing.T) {
 
 func Test_PlaySeek(t *testing.T) {
 	m := map[string]int{"Audi": 10000, "BMW": 11000, "Lexus": 12000}
-
 	renault, e := m["Renault"]
 	assert.False(t, e)
 	assert.Empty(t, renault)

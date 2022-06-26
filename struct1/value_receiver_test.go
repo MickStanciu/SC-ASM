@@ -47,10 +47,10 @@ func grow(g grower) {
 }
 
 func TestShouldGrow_ButIsItReally(t *testing.T) {
-	lv := NewLettuceV()
-	grow(&lv)
-	grow(lv)
-	assert.EqualValues(t, 2, lv.Size)
+	//lv := NewLettuceV()
+	//grow(&lv)
+	//grow(lv)
+	//assert.EqualValues(t, 2, lv.Size)
 
 	cv := NewCucumberV()
 	grow(&cv)
@@ -74,10 +74,10 @@ func TestShouldGrow_AAAAHHHHH(t *testing.T) {
 }
 
 func TestShouldGrow2(t *testing.T) {
-	lv := NewLettuceP()
-	grow(lv)
-	grow(*lv)
-	assert.EqualValues(t, 2, lv.Size)
+	//lv := NewLettuceP()
+	//grow(lv)
+	//grow(*lv)
+	//assert.EqualValues(t, 2, lv.Size)
 
 	cv := NewCucumberP()
 	grow(cv)

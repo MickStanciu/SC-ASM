@@ -36,7 +36,8 @@ func Test_CreateWithIndexPositions(t *testing.T) {
 
 func Test_CreateEmptySlice(t *testing.T) {
 	s1 := make([]int, 0)
-	var s2 []int // s2 := []int{}
+	var s2 []int
+	//s3 := []int{}
 	fmt.Println(s1)
 	fmt.Println(s2)
 }
@@ -45,7 +46,7 @@ func Test_MultiCreate(t *testing.T) {
 	var s1 []string
 	var s2 = []string{}
 	var s3 = make([]string, 0)
-	var s4 = make([]string, 1)
+	var s4 = make([]string, 17)
 
 	fmt.Println(s1)
 	fmt.Printf("Len: %d\n", len(s1))
@@ -72,6 +73,7 @@ func Test_MultiCreate(t *testing.T) {
 
 	// APPEND STUFF
 	s1 = append(s1, "PEUGEOT")
+	fmt.Printf("address s1: %v\n", &s1[0])
 	fmt.Println(s1)
 	fmt.Printf("S1 Len: %d\n", len(s1))
 	fmt.Printf("S1 Cap: %d\n", cap(s1))
@@ -86,7 +88,9 @@ func Test_MultiCreate(t *testing.T) {
 	fmt.Printf("S3 Len: %d\n", len(s3))
 	fmt.Printf("S3 Cap: %d\n", cap(s3))
 
+	fmt.Printf("address s4: %v\n", &s4[0])
 	s4 = append(s4, "PEUGEOT")
+	fmt.Printf("address s4: %v\n", &s4[0])
 	fmt.Println(s4)
 	fmt.Printf("S4 Len: %d\n", len(s4))
 	fmt.Printf("S4 Cap: %d\n", cap(s4))
@@ -146,14 +150,11 @@ func Test_GrowTheSlice(t *testing.T) {
 
 // slice sharing the same underlying array
 func slice1() {
-	slice := []int{1, 2, 3, 4, 5, 6}
-	newSlice := slice[1:3]
-	fmt.Println(slice)
-	fmt.Println(newSlice)
-
-	newSlice[0] = 99
-	fmt.Println(slice)
-	fmt.Println(newSlice)
+	slice := make([]int, 5, 5)
+	slice[0] = 10
+	fmt.Println(&slice[0])
+	slice = append(slice, 11)
+	fmt.Println(&slice[0])
 }
 
 // if there is no room, will be a new array
@@ -179,6 +180,10 @@ func slice3() {
 	newSlice[0] = 99
 	fmt.Println(slice)
 	fmt.Println(newSlice)
+}
+
+func Test_bla1(t *testing.T) {
+	slice4()
 }
 
 // if there is no room, will create a new array
