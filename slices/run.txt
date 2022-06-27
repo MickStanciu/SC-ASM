@@ -1,0 +1,716 @@
+[0 0 0 0 0]
+[0 0 0 0 0]
+[1 2 3 4 5]
+[1 2 3 4 5 0 0 0 0 99]
+[]
+[]
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[                ]
+Len: 17
+Cap: 17
+address s1: 0xc00006d1c0
+[PEUGEOT]
+S1 Len: 1
+S1 Cap: 1
+[PEUGEOT]
+S2 Len: 1
+S2 Cap: 1
+[PEUGEOT]
+S3 Len: 1
+S3 Cap: 1
+address s4: 0xc0000d47e0
+address s4: 0xc000014d80
+[BMW                 PEUGEOT]
+S4 Len: 18
+S4 Cap: 36
+[1 2 3 4 5]
+Adr: 0xc000020360
+Adr: 0xc000020368
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc000020368
+Len: 2
+Cap: 4
+[1 2 3 4 5]
+Adr: 0xc000020390
+Adr: 0xc000020398
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc000020398
+Len: 2
+Cap: 4
+------
+[1 99 3 4 5]
+[99 3]
+[1 2 3 4 5]
+Len: 5
+Cap: 5
+------
+[1 2 3 4 5 10 11 12]
+Len: 8
+Cap: 10
+[10 20 30 40 50 60]
+[20 30]
+2
+2
+[10 20 30 40 50 60]
+[99 30 70]
+[0 0 0 0 0]
+[0 0 0 0 0]
+[1 2 3 4 5]
+[1 2 3 4 5 0 0 0 0 99]
+[]
+[]
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[                ]
+Len: 17
+Cap: 17
+address s1: 0xc00006d500
+[PEUGEOT]
+S1 Len: 1
+S1 Cap: 1
+[PEUGEOT]
+S2 Len: 1
+S2 Cap: 1
+[PEUGEOT]
+S3 Len: 1
+S3 Cap: 1
+address s4: 0xc0000d4900
+address s4: 0xc000014fc0
+[BMW                 PEUGEOT]
+S4 Len: 18
+S4 Cap: 36
+[1 2 3 4 5]
+Adr: 0xc000020480
+Adr: 0xc000020488
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc000020488
+Len: 2
+Cap: 4
+[1 2 3 4 5]
+Adr: 0xc0000204b0
+Adr: 0xc0000204b8
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc0000204b8
+Len: 2
+Cap: 4
+------
+[1 99 3 4 5]
+[99 3]
+[1 2 3 4 5]
+Len: 5
+Cap: 5
+------
+[1 2 3 4 5 10 11 12]
+Len: 8
+Cap: 10
+[10 20 30 40 50 60]
+[20 30]
+2
+2
+[10 20 30 40 50 60]
+[99 30 70]
+[0 0 0 0 0]
+[0 0 0 0 0]
+[1 2 3 4 5]
+[1 2 3 4 5 0 0 0 0 99]
+[]
+[]
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[                ]
+Len: 17
+Cap: 17
+address s1: 0xc00006d840
+[PEUGEOT]
+S1 Len: 1
+S1 Cap: 1
+[PEUGEOT]
+S2 Len: 1
+S2 Cap: 1
+[PEUGEOT]
+S3 Len: 1
+S3 Cap: 1
+address s4: 0xc0000d4a20
+address s4: 0xc000015200
+[BMW                 PEUGEOT]
+S4 Len: 18
+S4 Cap: 36
+[1 2 3 4 5]
+Adr: 0xc0000205a0
+Adr: 0xc0000205a8
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc0000205a8
+Len: 2
+Cap: 4
+[1 2 3 4 5]
+Adr: 0xc0000205d0
+Adr: 0xc0000205d8
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc0000205d8
+Len: 2
+Cap: 4
+------
+[1 99 3 4 5]
+[99 3]
+[1 2 3 4 5]
+Len: 5
+Cap: 5
+------
+[1 2 3 4 5 10 11 12]
+Len: 8
+Cap: 10
+[10 20 30 40 50 60]
+[20 30]
+2
+2
+[10 20 30 40 50 60]
+[99 30 70]
+[0 0 0 0 0]
+[0 0 0 0 0]
+[1 2 3 4 5]
+[1 2 3 4 5 0 0 0 0 99]
+[]
+[]
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[                ]
+Len: 17
+Cap: 17
+address s1: 0xc00006db80
+[PEUGEOT]
+S1 Len: 1
+S1 Cap: 1
+[PEUGEOT]
+S2 Len: 1
+S2 Cap: 1
+[PEUGEOT]
+S3 Len: 1
+S3 Cap: 1
+address s4: 0xc0000d4b40
+address s4: 0xc000015440
+[BMW                 PEUGEOT]
+S4 Len: 18
+S4 Cap: 36
+[1 2 3 4 5]
+Adr: 0xc0000206c0
+Adr: 0xc0000206c8
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc0000206c8
+Len: 2
+Cap: 4
+[1 2 3 4 5]
+Adr: 0xc0000206f0
+Adr: 0xc0000206f8
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc0000206f8
+Len: 2
+Cap: 4
+------
+[1 99 3 4 5]
+[99 3]
+[1 2 3 4 5]
+Len: 5
+Cap: 5
+------
+[1 2 3 4 5 10 11 12]
+Len: 8
+Cap: 10
+[10 20 30 40 50 60]
+[20 30]
+2
+2
+[10 20 30 40 50 60]
+[99 30 70]
+[0 0 0 0 0]
+[0 0 0 0 0]
+[1 2 3 4 5]
+[1 2 3 4 5 0 0 0 0 99]
+[]
+[]
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[                ]
+Len: 17
+Cap: 17
+address s1: 0xc00006dec0
+[PEUGEOT]
+S1 Len: 1
+S1 Cap: 1
+[PEUGEOT]
+S2 Len: 1
+S2 Cap: 1
+[PEUGEOT]
+S3 Len: 1
+S3 Cap: 1
+address s4: 0xc0000d4c60
+address s4: 0xc000015680
+[BMW                 PEUGEOT]
+S4 Len: 18
+S4 Cap: 36
+[1 2 3 4 5]
+Adr: 0xc0000207e0
+Adr: 0xc0000207e8
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc0000207e8
+Len: 2
+Cap: 4
+[1 2 3 4 5]
+Adr: 0xc000020810
+Adr: 0xc000020818
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc000020818
+Len: 2
+Cap: 4
+------
+[1 99 3 4 5]
+[99 3]
+[1 2 3 4 5]
+Len: 5
+Cap: 5
+------
+[1 2 3 4 5 10 11 12]
+Len: 8
+Cap: 10
+[10 20 30 40 50 60]
+[20 30]
+2
+2
+[10 20 30 40 50 60]
+[99 30 70]
+[0 0 0 0 0]
+[0 0 0 0 0]
+[1 2 3 4 5]
+[1 2 3 4 5 0 0 0 0 99]
+[]
+[]
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[                ]
+Len: 17
+Cap: 17
+address s1: 0xc00019c200
+[PEUGEOT]
+S1 Len: 1
+S1 Cap: 1
+[PEUGEOT]
+S2 Len: 1
+S2 Cap: 1
+[PEUGEOT]
+S3 Len: 1
+S3 Cap: 1
+address s4: 0xc0000d4d80
+address s4: 0xc0000158c0
+[BMW                 PEUGEOT]
+S4 Len: 18
+S4 Cap: 36
+[1 2 3 4 5]
+Adr: 0xc000020900
+Adr: 0xc000020908
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc000020908
+Len: 2
+Cap: 4
+[1 2 3 4 5]
+Adr: 0xc000020930
+Adr: 0xc000020938
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc000020938
+Len: 2
+Cap: 4
+------
+[1 99 3 4 5]
+[99 3]
+[1 2 3 4 5]
+Len: 5
+Cap: 5
+------
+[1 2 3 4 5 10 11 12]
+Len: 8
+Cap: 10
+[10 20 30 40 50 60]
+[20 30]
+2
+2
+[10 20 30 40 50 60]
+[99 30 70]
+[0 0 0 0 0]
+[0 0 0 0 0]
+[1 2 3 4 5]
+[1 2 3 4 5 0 0 0 0 99]
+[]
+[]
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[                ]
+Len: 17
+Cap: 17
+address s1: 0xc00019c540
+[PEUGEOT]
+S1 Len: 1
+S1 Cap: 1
+[PEUGEOT]
+S2 Len: 1
+S2 Cap: 1
+[PEUGEOT]
+S3 Len: 1
+S3 Cap: 1
+address s4: 0xc0000d4ea0
+address s4: 0xc000015b00
+[BMW                 PEUGEOT]
+S4 Len: 18
+S4 Cap: 36
+[1 2 3 4 5]
+Adr: 0xc000020a20
+Adr: 0xc000020a28
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc000020a28
+Len: 2
+Cap: 4
+[1 2 3 4 5]
+Adr: 0xc000020a50
+Adr: 0xc000020a58
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc000020a58
+Len: 2
+Cap: 4
+------
+[1 99 3 4 5]
+[99 3]
+[1 2 3 4 5]
+Len: 5
+Cap: 5
+------
+[1 2 3 4 5 10 11 12]
+Len: 8
+Cap: 10
+[10 20 30 40 50 60]
+[20 30]
+2
+2
+[10 20 30 40 50 60]
+[99 30 70]
+[0 0 0 0 0]
+[0 0 0 0 0]
+[1 2 3 4 5]
+[1 2 3 4 5 0 0 0 0 99]
+[]
+[]
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[                ]
+Len: 17
+Cap: 17
+address s1: 0xc00019c880
+[PEUGEOT]
+S1 Len: 1
+S1 Cap: 1
+[PEUGEOT]
+S2 Len: 1
+S2 Cap: 1
+[PEUGEOT]
+S3 Len: 1
+S3 Cap: 1
+address s4: 0xc0000d4fc0
+address s4: 0xc000015d40
+[BMW                 PEUGEOT]
+S4 Len: 18
+S4 Cap: 36
+[1 2 3 4 5]
+Adr: 0xc000020b40
+Adr: 0xc000020b48
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc000020b48
+Len: 2
+Cap: 4
+[1 2 3 4 5]
+Adr: 0xc000020b70
+Adr: 0xc000020b78
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc000020b78
+Len: 2
+Cap: 4
+------
+[1 99 3 4 5]
+[99 3]
+[1 2 3 4 5]
+Len: 5
+Cap: 5
+------
+[1 2 3 4 5 10 11 12]
+Len: 8
+Cap: 10
+[10 20 30 40 50 60]
+[20 30]
+2
+2
+[10 20 30 40 50 60]
+[99 30 70]
+[0 0 0 0 0]
+[0 0 0 0 0]
+[1 2 3 4 5]
+[1 2 3 4 5 0 0 0 0 99]
+[]
+[]
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[                ]
+Len: 17
+Cap: 17
+address s1: 0xc00019cbc0
+[PEUGEOT]
+S1 Len: 1
+S1 Cap: 1
+[PEUGEOT]
+S2 Len: 1
+S2 Cap: 1
+[PEUGEOT]
+S3 Len: 1
+S3 Cap: 1
+address s4: 0xc0000d50e0
+address s4: 0xc0001ae000
+[BMW                 PEUGEOT]
+S4 Len: 18
+S4 Cap: 36
+[1 2 3 4 5]
+Adr: 0xc000020c60
+Adr: 0xc000020c68
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc000020c68
+Len: 2
+Cap: 4
+[1 2 3 4 5]
+Adr: 0xc000020c90
+Adr: 0xc000020c98
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc000020c98
+Len: 2
+Cap: 4
+------
+[1 99 3 4 5]
+[99 3]
+[1 2 3 4 5]
+Len: 5
+Cap: 5
+------
+[1 2 3 4 5 10 11 12]
+Len: 8
+Cap: 10
+[10 20 30 40 50 60]
+[20 30]
+2
+2
+[10 20 30 40 50 60]
+[99 30 70]
+[0 0 0 0 0]
+[0 0 0 0 0]
+[1 2 3 4 5]
+[1 2 3 4 5 0 0 0 0 99]
+[]
+[]
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[]
+Len: 0
+Cap: 0
+[                ]
+Len: 17
+Cap: 17
+address s1: 0xc00019cf00
+[PEUGEOT]
+S1 Len: 1
+S1 Cap: 1
+[PEUGEOT]
+S2 Len: 1
+S2 Cap: 1
+[PEUGEOT]
+S3 Len: 1
+S3 Cap: 1
+address s4: 0xc0000d5200
+address s4: 0xc0001ae240
+[BMW                 PEUGEOT]
+S4 Len: 18
+S4 Cap: 36
+[1 2 3 4 5]
+Adr: 0xc000020d80
+Adr: 0xc000020d88
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc000020d88
+Len: 2
+Cap: 4
+[1 2 3 4 5]
+Adr: 0xc000020db0
+Adr: 0xc000020db8
+Len: 5
+Cap: 5
+------
+[2 3]
+Adr: 0xc000020db8
+Len: 2
+Cap: 4
+------
+[1 99 3 4 5]
+[99 3]
+[1 2 3 4 5]
+Len: 5
+Cap: 5
+------
+[1 2 3 4 5 10 11 12]
+Len: 8
+Cap: 10
+[10 20 30 40 50 60]
+[20 30]
+2
+2
+[10 20 30 40 50 60]
+[99 30 70]
+goos: darwin
+goarch: amd64
+pkg: github.com/MickStanciu/SC-ASM/slices
+cpu: Intel(R) Core(TM) i9-9980HK CPU @ 2.40GHz
+BenchmarkSlicePointers-16    	  112761	     10992 ns/op	    3201 B/op	     200 allocs/op
+BenchmarkSlicePointers-16    	  108271	     11186 ns/op	    3201 B/op	     200 allocs/op
+BenchmarkSlicePointers-16    	  105094	     11083 ns/op	    3201 B/op	     200 allocs/op
+BenchmarkSlicePointers-16    	  111094	     10896 ns/op	    3201 B/op	     200 allocs/op
+BenchmarkSlicePointers-16    	  106419	     11413 ns/op	    3201 B/op	     200 allocs/op
+BenchmarkSlicePointers-16    	  111782	     11769 ns/op	    3201 B/op	     200 allocs/op
+BenchmarkSlicePointers-16    	   91272	     17122 ns/op	    3201 B/op	     200 allocs/op
+BenchmarkSlicePointers-16    	  108070	     11165 ns/op	    3201 B/op	     200 allocs/op
+BenchmarkSlicePointers-16    	  105585	     10515 ns/op	    3201 B/op	     200 allocs/op
+BenchmarkSlicePointers-16    	  111444	     10417 ns/op	    3201 B/op	     200 allocs/op
+BenchmarkSliceValues-16      	  157604	      7656 ns/op	    1600 B/op	     100 allocs/op
+BenchmarkSliceValues-16      	  150600	      8278 ns/op	    1600 B/op	     100 allocs/op
+BenchmarkSliceValues-16      	  153506	      7684 ns/op	    1600 B/op	     100 allocs/op
+BenchmarkSliceValues-16      	  154486	      7783 ns/op	    1600 B/op	     100 allocs/op
+BenchmarkSliceValues-16      	  156013	      7666 ns/op	    1600 B/op	     100 allocs/op
+BenchmarkSliceValues-16      	  154186	      7666 ns/op	    1600 B/op	     100 allocs/op
+BenchmarkSliceValues-16      	  152391	      7725 ns/op	    1600 B/op	     100 allocs/op
+BenchmarkSliceValues-16      	  152580	      7762 ns/op	    1600 B/op	     100 allocs/op
+BenchmarkSliceValues-16      	  153536	      7857 ns/op	    1600 B/op	     100 allocs/op
+BenchmarkSliceValues-16      	  151502	      7833 ns/op	    1600 B/op	     100 allocs/op
+PASS
+ok  	github.com/MickStanciu/SC-ASM/slices	27.469s

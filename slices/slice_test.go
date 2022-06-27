@@ -200,3 +200,37 @@ func slice4() {
 	fmt.Println(slice)
 	fmt.Println(newSlice)
 }
+
+func BenchmarkSlicePointers(b *testing.B) {
+	b.ReportAllocs()
+
+	type obj struct {
+		name string
+	}
+
+	for i := 0; i < b.N; i++ {
+		slice := make([]*obj, 0, 100)
+		for k := 0; k < 100; k++ {
+			slice = append(slice, &obj{
+				fmt.Sprintf("counter is %d", k),
+			})
+		}
+	}
+}
+
+func BenchmarkSliceValues(b *testing.B) {
+	b.ReportAllocs()
+
+	type obj struct {
+		name string
+	}
+
+	for i := 0; i < b.N; i++ {
+		slice := make([]obj, 0, 100)
+		for k := 0; k < 100; k++ {
+			slice = append(slice, obj{
+				fmt.Sprintf("counter is %d", k),
+			})
+		}
+	}
+}
